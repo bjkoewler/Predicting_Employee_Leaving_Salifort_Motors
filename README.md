@@ -8,11 +8,11 @@ The company wants to improve employee satisfaction, an admirable objective no ma
 
 ## Data Understanding
 The data was collected by the Salifort Motors human resources department. The dataset consists of 15,000 records with 10 columns of variables. Some features include tenure, monthly average hours, last evaluation score, and number of projects. The outcome variable was a binary column named 'left'. A feature named 'overworked' was engineered to reveal insight about those who worked greater than 174 hours. The plot below shows how satisfaction level varies by tenure, with the nadir at tenure year 4.
-![alt text](https://github.com/bjkoewler/Predicting_Employee_Leaving_Salifort_Motors/blob/main/images/satisfaction_by_tenure.png?raw=true)
+![alt text](https://github.com/bjkoewler/Predicting_Employee_Leaving_Salifort_Motors/blob/main/images/satisfaction_by_tenure.png)
 
 
 ## Modeling and Evaluation
-After testing multiple models, the XGBoost ensemble demonstrated the highest results and was chosen as the champion model. The model achieved an auc of 94%, accuracy of 97%, precision of 91% and a recall of 90%. The plot below shows the top three most important features in classifying whether an employee left or not are: last_evaluation, tenure, and n_projects.
+After testing multiple models, the XGBoost ensemble demonstrated the highest results and was chosen as the champion model. The model achieved an auc of 94%, accuracy of 97%, precision of 91% and a recall of 90%. The plot below shows the top three most important features in classifying whether an employee left or not are: n_projects, tenure, overworked.
 ![alt text](https://github.com/bjkoewler/Predicting_Employee_Leaving_Salifort_Motors/blob/main/images/feature_importances.png)
 
 ## Conclusion
