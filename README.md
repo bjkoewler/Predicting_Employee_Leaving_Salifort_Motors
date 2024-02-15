@@ -13,7 +13,7 @@ The data was collected by the Salifort Motors human resources department. The da
 
 ## Modeling and Evaluation
 After testing multiple models, the XGBoost ensemble demonstrated the highest results and was chosen as the champion model. The model achieved an auc of 94%, accuracy of 97%, precision of 91% and a recall of 90%. The plot below shows the top three most important features in classifying whether an employee left or not are: last_evaluation, tenure, and n_projects.
-
+!(https://github.com/bjkoewler/Predicting_Employee_Leaving_Salifort_Motors/blob/main/images/feature_importances.png)
 
 ## Conclusion
 This model accurately predicts thos employeees who would leave, and has the potential to save the company signficant time and money. However, it does not tell us why the employees are dissatisfied, and more information can further improve Salifort's efforts to increase satisfaction across its workforce. Building an unsupervised model(K-means) may provide further insight after analysis of how it clusters the dataset.
