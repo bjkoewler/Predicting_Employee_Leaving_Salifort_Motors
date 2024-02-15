@@ -1,6 +1,5 @@
 # Predicting_Employee_Leaving_Salifort_Motors
 
-# Salifort Motors Human Resources Employee Satisfaction Initiative
 ## Overview
 The human resources department at Salifort Motors wants to improve employee satisfaction. Their question is: What makes an employee likely to leave the company? The task is to build a machine learning model that can predict those who would leave, and identify those factors that play the largest role in this prediction.
 
